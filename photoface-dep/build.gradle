@@ -46,7 +46,7 @@ afterEvaluate {
     publishing{
         publications{
             teste(MavenPublication) {
-                artifact("$rootDir/facetec-sdk-9.4.23.aar")
+                artifact("$rootDir/facetec-sdk-9.6.53-minimal.aar")
                 groupId 'br.com.partner1'
                 artifactId 'photoface-dep'
                 version '1.0'
